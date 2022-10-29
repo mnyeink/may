@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+	 
+	 <html lang="en">
+
+<head>
+
+ <title> May Nyein's Portfolio</title>
+				
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				
+				
+				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" >
+				
+				
+				
+	
+				
+				
+		 <style>
+  
+  
+  
+ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 17px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color:  #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)}
+}
+
+
+</style>
+
+
+
+						
+<style>
+
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: #D0B8A8;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.container .skill-box{
+    width: 100%;
+    margin: 25px 0;
+}
+.skill-box .title{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #815B5B;
+}
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0,0,0.1);
+}
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    border-radius: 6px;
+    background:#7D6E83;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+
+.skill-per.html{
+    width: 90%;
+    animation-delay: 0.1s;
+}
+
+
+.skill-per.css{
+    width: 60%;
+    animation-delay: 0.1s;
+}
+.skill-per.javascript{
+    width: 50%;
+    animation-delay: 0.2s;
+}
+.skill-per.nodejs{
+    width: 30%;
+    animation-delay: 0.3s;
+}
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFECEF;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #FF74B1;
+    z-index: 1;
+}
+.tooltip::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background-color:#FF74B1;
+    transform: translateX(-50%) rotate(45deg);
+
+}
+															
+</style>
+  
+  
+ <style>
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+ 
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: black;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+ 
+
+<style>
+div.gallery {
+  margin: 5px;
+  border: 4px solid #CA82FF;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+
+<style>
+
+.progress{
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    border-radius: 50%;
+    border: 15px solid #f2f5f5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    border-width: 15px;
+    border-style: solid;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: none;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    font-size: 24px;
+    color: rgb(250, 245, 245);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+.progress.blue .progress-bar{
+    border-color: #26abfd;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #fdc426;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #f83754;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+
+</style>
+
+
+<style> 
+
+
+.column-2a {
+  float: left;
+  width: 80%;
+  padding: 40px;
+  padding-left:80px;
+  padding-right: 20px;
+  padding-bottom:50px;
+  height:300px;
+  margin:110px;
+  margin-right:100px;
+  margin-bottom: 10px;
+  background-color:#967E76;
+} </style>
+
+
+
+<style>
+a:link {
+  color: #FFACC7;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #FFACC7;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #DBC8AC;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+
+
+
+
+
+
+
+</head>
+  
+  
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  
+  <a target="_blank" href="ph5assig.jpg">
+  <img src="ph5assig.jpg" style="width:100%">
+	</a>		
+			<a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+				<i class="fa fa-home w3-xxlarge"></i>
+					<p> <span style="color:#FFFFFF;font-weight:bold;"> HOME</span></p>
+						</a>
+			
+			
+			
+		<a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+			<i class="fa fa-user w3-xxlarge"></i>
+				<p><span style="color:#FFD372;font-weight:bold;">Portfolio</span></p>
+					</a>
+		
+	
+	<a href="#interests" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+			<i class="fa fa-heart w3-xxlarge"></i>
+				<p><span style="color:#FFD372;font-weight:bold;">Interests</span></p>
+					</a>
+	
+	<a href="#favourite" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+				<i class="fa fa-coffee w3-xxlarge"></i>
+					<p><span style="color:#FFD372;font-weight:bold;">Favourites</span></p>
+						</a>
+	
+				
+				
+			
+			<a href="#skill" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+				<i class="fa fa-star w3-xxlarge"></i>
+					<p><span style="color:#FFD372;font-weight:bold;">Skills</span></p>
+						</a>
+						
+			<a href="#goal" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+				<i class="fa fa-bullseye w3-xxlarge"></i>
+					<p><span style="color:#FFD372;font-weight:bold;">Goals</span></p>
+						</a>
+						
+						<a href="#tribute" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+				<i class="fa fa-address-book w3-xxlarge"></i>
+					<p><span style="color:#9CFF2E;font-weight:bold;">Tribute</span></p>
+						</a>
+						
+						
+			<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+				<i class="fa fa-envelope w3-xxlarge"></i>
+					<p><span style="color:#00FFD1;font-weight:bold;">Contact</span></p>
+						</a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+	<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+					
+					<div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+					
+							<a href="# home" class="w3-bar-item w3-button" style="width:25% !important"> HOME</a>
+								<a href="#portfolio" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
+								<a href="#interests" class="w3-bar-item w3-button" style="width:25% !important">Interests</a>
+												<a href="#favourite" class="w3-bar-item w3-button" style="width:25% !important">Favourites
+									<a href="#skill" class="w3-bar-item w3-button" style="width:25% !important">SKILLS</a>
+								<a href="#goal" class="w3-bar-item w3-button" style="width:25% !important">GOALS</a>
+								<a href="#tribute" class="w3-bar-item w3-button" style="width:25% !important">Tribute</a>
+							<a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+						
+					</div>
+	</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+
+
+ <!-- Header/Home -->
+			<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+						<h1 class="w3-jumbo glow thicker"><span class="w3-hide-small"> May Nyein Kyaw </h1>
+						
+<div class="waviy">
+   <span style="--i:1;color:#31E1F7;font-weight:bold">G</span>
+   <span style="--i:2">u</span>
+   <span style="--i:3">s</span>
+   <span style="--i:4">t</span>
+   <span style="--i:5">o</span>&nbsp;&nbsp;&nbsp;
+   <span style="--i:6;color:#31E1F7;font-weight:bold">U</span>
+   <span style="--i:7">n</span>
+   <span style="--i:8">i</span>
+   <span style="--i:9">v</span>
+   <span style="--i:10">e</span>
+   <span style="--i:11">r</span>
+   <span style="--i:12">s</span>
+   <span style="--i:13">i</span>
+   <span style="--i:14">t</span>
+   <span style="--i:15">y</span>&nbsp;&nbsp;&nbsp;
+   <span style="--i:16;color:#31E1F7;font-weight:bold">F</span>
+   <span style="--i:17">o</span>
+   <span style="--i:18">u</span>
+   <span style="--i:19">n</span>
+   <span style="--i:20">d</span>
+   <span style="--i:21">a</span>
+   <span style="--i:22">t</span>
+   <span style="--i:23">i</span>
+   <span style="--i:24">o</span>
+   <span style="--i:25">n</span>&nbsp;&nbsp;&nbsp;
+   <span style="--i:26;color:#31E1F7;font-weight:bold">S</span>
+   <span style="--i:27">t</span>
+   <span style="--i:28">u</span>
+   <span style="--i:29">d</span>
+   <span style="--i:30">e</span>
+   <span style="--i:31">n</span>
+   <span style="--i:32">t</span>
+  
+
+  </div>
+							
+						
+			
+						
+						<a target="_blank" href="ph24assig.jpg">
+						<img src="ph24assig.jpg" alt="may" class="w3-image" width="992" height="1108">
+						</a>
+			</header>
+			
+		<!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="portfolio">
+    <h1 class="w3-text-light-grey thicker">Shortly About Me</h1>
+    <hr style="width:200px" class="w3-opacity">
+   
+	<h6 style="color:#810955" class="thicker">   
+<span style="color:#2192FF">&nbsp;&nbsp;&nbsp;&nbsp; Hello!</span>
+<br><span style="color:#2192FF">&nbsp;&nbsp;Welcome from my Portfolio Webpage.</span> <br><br>
+
+ <span style="color:#42855B">
+&nbsp;&nbsp;&nbsp;&nbsp;I am May Nyein Kyaw.&nbsp;I am originally from a small village which is on the island but l am now based in Yangon.&nbsp;I'm from a family of five and I have two younger brothers.&nbsp;I am in my early twenties.</span><br><br>
+
+<span style="color:#FF7F3F">&nbsp;&nbsp;&nbsp;&nbsp;I've recently finished a foundation course at&nbsp;&nbsp;<a href="https://www.gusto.edu.mm/"><span style="color:#FF7F3F">Gusto University.</span></a>&nbsp;If all goes to plan,&nbsp;I'll study Computing in the next first year HND class.</span>
+
+<br><br>
+
+
+<span style="color:#003865">&nbsp;&nbsp;&nbsp;&nbsp;One of my dreams is to be able to work in the IT industry and to explore abroad.&nbsp;My main dream is to be able to support my family.</span><br>
+<br><br>
+<span style="color:#815B5B" ><u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some Additional Things About Me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u></span><br><br>
+<span>I am scared of:</span>
+<br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9679;&nbsp;Ghost</span><br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9679;&nbsp;Mouse</span><br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9679;&nbsp;Snakes</span><br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9679;&nbsp;Dogs</span><br>
+
+</h6>
+<br><br>
+
+
+
+<p><span style="color:#ECCCB2;font-weight:bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HELLO! I am Baby May Nyein.</span></p>
+
+
+<a target="_blank" href="babymaynyein.jpg">
+  <img src="babymaynyein.jpg" alt="may" style="width:150px">
+</a>
+
+<a target="_blank" href="babymaynyein.jpg">
+<img src="babymaynyein.jpg" alt="baby" style="width:50%">
+</a>
+
+<a target="_blank" href="babymaynyein.jpg">
+  <img src="babymaynyein.jpg" alt="may" style="width:150px">
+</a>
+
+
+	</div>  
+	  
+	  
+	  
+	  <video width="300" controls>
+  <source src="eatingmangoassig.mp4" type="video/mp4">
+ 
+ .
+</video>
+<br>
+
+<p> <span style="color:#3CCF4E;font-weight:bold;">I recorded it to save as a memory about two years ago.</span></p>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+	
+	<!-- interests section -->
+	<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="interests">
+   
+ 
+	<!-- MAIN  --><div class="main">
+
+<h1 class="thicker">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hobbies And Interests</h1>
+<hr>
+
+
+
+
+<!-- 4 -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+	
+	<a target="_blank" href="interestph7.jpg">
+      <img src="interestph7.jpg" alt="may" style="width:100%">
+	  </a>
+      <h3>Dancing</h3>
+      <p><span style="color:#ECCCB2;font-weight:bold;">I am interested in Dancing and it makes me relaxed. It is really good both our physical and mental health.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="interestph1.jpg">
+	
+    <img src="interestph1.jpg" alt="may" style="width:100%">
+	</a>
+      <h3>Reading Books</h3>
+      <p><span style="color:#54BAB9;font-weight:bold;">I strongly believe that books are good sources to extend our knowledge.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	
+	<a target="_blank" href="interestph8.jpg">
+    <img src="interestph8.jpg" alt="may" style="width:100%">
+	</a>
+      <h3>Listen To Music</h3>
+      <p><span style="color:#E1FFB1;font-weight:bold;">&nbsp;&nbsp;&nbsp;&nbsp;I am keen on listening to music and I listen to music every single day.&nbsp; It makes me more productive and feel relaxed. Reading a Book and listening to background music is a good matching for me.&nbsp;I prefer spending my free time by my self.</span></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="interestph4.jpg">
+    <img src="interestph4.jpg" alt="May" style="width:100%">
+	</a>
+      <h3>Planting</h3>
+      <p><span style="color:#38E54D;font-weight:bold;">I am a fan of flowers and nature. &nbsp;So I enjoy planting.</span></p>
+    </div>
+  </div>
+<!-- END 4-->
+</div>
+
+<div class="content">
+<a target="_blank" href="interestph9.jpg">
+  <img src="interestph9.jpg" alt="May" style="width:40%">
+  </a>
+  <h3>Programming</h3>
+  <p><span style="color:#AC7088;font-weight:bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've found my new interest in this year.I have known what is programming for about two months that is one of the subjects of my GUF course.&nbsp;It is really interesting.&nbsp;Sometimes you face errors when you are coding.&nbsp;But the feeling that the time you can find out where is error codes and  can solve it makes you feel that you've done an achievement.&nbsp;After the whole project is completed,&nbsp;you'd like to reward yourself.&nbsp;In addiition, &nbsp;one of the reasons I like programming is while I am doing my project,&nbsp;I can also listen to music simultaneously.</span>
+</p>
+  
+</div>
+
+<!-- END MAIN -->
+</div>
+	
+	
+	
+			<!-- Favourite Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="favourite">
+    <h1 class="w3-text-light-grey thicker">Favourites</h1>
+	 <hr style="width:300px" class="w3-opacity"><br>
+	<h2 class="w3-text-light-grey thicker">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Favorite People Including Me</h2>
+    
+   
+	
+	
+	<hr>
+<div class="gallery">
+  <a target="_blank" href="family7.jpg">
+    <img src="family7.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc"><span style="color:#F7F6DC;font-weight:bold;">A Woman in my heart(Mom)</span></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="family1.jpg">
+    <img src="family1.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc"><span style="color:#F7F6DC;font-weight:bold;"> A Man in my heart(Dad) </span></div>
+</div>
+               
+			   
+			   
+			   
+	
+<div class="gallery">
+  <a target="_blank" href="family5.jpg">
+    <img src="family5.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc"><span style="color:#F7F6DC;font-weight:bold;">Me</span></div>
+</div>		   
+			   			   
+<div class="gallery">
+  <a target="_blank" href="family3.jpg">
+    <img src="family3.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc"><span style="color:#F7F6DC;font-weight:bold;">Younger Brother</span></div><br>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="family6.jpg">
+    <img src="family6.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc"><span style="color:#F7F6DC;font-weight:bold;">Youngest Brother</span></div>
+</div></div>
+
+
+	<h3 class="w3-text-light-grey thicker">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FOODS AND DRINKS</h3>
+    <hr>
+<div class="gallery">
+  <a target="_blank" href="hotpotreal.jpg">
+    <img src="hotpotreal.jpg" alt="hotpot" width="600" height="400">
+  </a>
+  <div class="desc"><span style="color:#9CFF2E;font-weight:bold;">Hotpot</span></div>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="Achinpoung.jpg">
+    <img src="Achinpoung.jpg" alt="KInbap" width="600" height="400">
+  </a>
+  <div class="desc"><span style="color:#9CFF2E;font-weight:bold;">Achinpoung</span></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="freshfruitjuice.jpg">
+    <img src="freshfruitjuice.jpg" alt="freshfruitjuice" width="600" height="400">
+  </a>
+  <div class="desc"><span style="color:#9CFF2E;font-weight:bold;">Fresh Fruit Juices</span></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="dessert.jpg">
+    <img src="dessert.jpg" alt="dessert" width="600" height="400">
+  </a>
+  <div class="desc"><span style="color:#9CFF2E;font-weight:bold;">Dessert</span></div>
+</div>	
+	
+
+<div class="gallery">
+  <a target="_blank" href="fruit.jpg">
+    <img src="fruit.jpg" alt="fruit" width="600" height="400">
+  </a>
+  <div class="desc"><span style="color:#9CFF2E;font-weight:bold;">Fruit<span></div>
+</div>
+
+
+
+
+	<h3class="w3-text-light-grey thicker">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</h3<br><hr><h2 class="w3-text-light-grey thicker">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some Of My Favorite BOOKS</h2>
+    <hr>
+   
+
+
+ 
+<div class="gallery">
+  <a target="_blank" href="book3.jpg">
+    <img src="book3.jpg" alt="book" width="600" height="400">
+  </a>
+  <div class="desc"><a href="https://www.pannsattlann.com/product/thu-lo-lu/"><span style="color:#F7F6DC;font-weight:bold;">Biography</span></a></div><br>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="book5.jpg">
+    <img src="book5.jpg" alt= "book"width="600" height="400">
+  </a>
+  <div class="desc"><a href="https://www.mm-lib.com/book/106"><span style="color:#F7F6DC;font-weight:bold;">Autobiography</span></a></div><br>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="book.jpg">
+    <img src="book.jpg" alt="book" width="600" height="400">
+  </a>
+  <div class="desc"><a href="https://my.wikipedia.org/wiki/%E1%80%96%E1%80%B1%E1%80%99%E1%80%B1%E1%80%AC%E1%80%84%E1%80%BA%E1%80%90%E1%80%84%E1%80%BA"><span style="color:#F7F6DC;font-weight:bold;">Biography</span></a></div><br>
+</div>	
+
+<div class="gallery">
+  <a target="_blank" href="book4.jpg">
+    <img src="book4.jpg" alt="book" width="600" height="400">
+  </a>
+  <div class="desc"><a href= "https://www.pannsattlann.com/product/maeain-kan/"><span style="color:#F7F6DC;font-weight:bold;"><span style="color:#F7F6DC;font-weight:bold;">A Novel based on true story</span></a></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="book6.jpg">
+    <img src="book6.jpg" alt="book" width="600" height="400">
+  </a>
+  <div class="desc"><a href= "https://drive.google.com/file/d/0Bwl_hA7bJaAeOGQ2M2ZmNTctZWQyYi00ZTA1LWI1MGQtMDdhZDBjMDhhMTEz/view?hl=en&resourcekey=0-8ze8F6yiQgrT5SiuWEDbUA"><span style="color:#F7F6DC;font-weight:bold;">A Novel</span></a> </div>
+</div>
+</div>
+
+	
+	
+	
+
+<h5>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.
+</h5>
+	
+
+<!--End Favourite Section -->
+
+
+
+<!-- skills Section -->
+	<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="skill">
+    <h1 class="w3-text-light-grey thicker">&nbsp;&nbsp;&nbsp;Skills and Experiences&nbsp;&nbsp;&nbsp;</h1>
+    <hr style="width:650px" class="w3-opacity">
+	
+	
+
+
+
+
+<div class="container">
+<span style="color:#18978F;font-weight:bold;font-size: 24px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Digital Skills</span>
+        <div class="skill-box">
+            <span class="title">Microsoft Word</span>
+
+            <div class="skill-bar">
+                <span class="skill-per html">
+                    <span class="tooltip">50%</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">Microsoft Powerpoint</span>
+
+            <div class="skill-bar">
+                <span class="skill-per css">
+                    <span class="tooltip">40%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">Microsoft Excel</span>
+
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">10%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">Photoshop</span>
+
+            <div class="skill-bar">
+                <span class="skill-per javascript ">
+                    <span class="tooltip">10%</span>
+                </span>
+            </div>
+        </div>
+    </div><br><br>
+	
+	
+	
+<span style="color:#82CD47;font-weight:bold;font-size: 24px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology Skills</sp>
+<div class="row">
+            
+            <div class="col-md-3 col-sm-6">
+                <div class="progress yellow">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">HTML</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="progress pink">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">CSS</div>
+                </div>
+            </div>
+			
+			</div>
+			<br>
+
+
+<div class="container">
+<span style="color:#06283D;font-weight:bold;font-size: 24px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Soft Skills</span>
+
+        <div class="skill-box">
+            <span class="title">Communication </span>
+
+            <div class="skill-bar">
+                <span class="skill-per html">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+		<div class="skill-box">
+            <span class="title">Team Working </span>
+
+            <div class="skill-bar">
+                <span class="skill-per html">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+			<div class="skill-box">
+            <span class="title">Problem Solving</span>
+
+            <div class="skill-bar">
+                <span class="skill-per css">
+                    <span class="tooltip">50%</span>
+                </span>
+            </div>
+        </div>
+		  
+		<div class="skill-box">
+            <span class="title">Creativity</span>
+
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">40%</span>
+                </span>
+			</div>
+        </div>
+		  	<div class="skill-box">
+            <span class="title">Organizational</span>
+
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">40%</span>
+                </span>
+			</div>
+        </div>
+		
+		<div class="skill-box">
+            <span class="title">Time Management</span>
+
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">40%</span>
+                </span>
+            </div>
+        </div>	
+        
+        <div class="skill-box">
+            <span class="title">Planning</span>
+
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">40%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">Numeracy</span>
+
+            <div class="skill-bar">
+                <span class="skill-per nodejs">
+                    <span class="tooltip">10%</span>
+                </span>
+            </div>
+        </div></div>
+		<br><br><br>
+		
+
+        
+		
+		
+		
+		
+		
+		
+		
+		
+		
+<span style="color:#;font-weight:bold;font-size: 24px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Language Skills</sp>
+		
+		
+		<div class="row">
+            
+			
+			
+			
+			
+			
+
+                <div class="col-md-3 col-sm-6">
+                <div class="progress pink">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">English</div>
+                </div>
+            </div>
+			
+			<div class="col-md-3 col-sm-6">
+                <div class="progress blue">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">Myanmar</div>
+                </div>
+            </div>
+			
+			
+			
+			
+			
+			<div class="col-md-3 col-sm-6">
+                <div class="progress pink">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">Myanglish</div>
+                </div>
+            </div>
+			
+			
+			
+        </div>
+    		
+</div></div>
+       			
+			
+			
+		
+	
+			
+			<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="goal">
+    <h1 class="w3-text-light-grey thicker">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Education and Goals</h1>
+    <hr style="width:400px" class="w3-opacity">
+	<h2><span style="color:#FF1E1E;font-weight:bold;">Education</span></h2>
+	<br>
+   
+	  	
+<div class="gallery">
+  <a target="_blank" href="education.jpg">
+    <img src="Education.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc"><a href="https://www.gusto.edu.mm/"><span style="color:#FFFF00;font-weight:bold;">Gusto University<span> </a></div>
+</div>
+
+<h5><span style="color:#00FFD1;font-weight:bold;">&nbsp;&nbsp;&nbsp;I've finished my foundation course at Gusto University.&nbsp;I've chosen Computing for &nbsp;&nbsp;&nbsp;the next step.</span> </h5>
+
+	<br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+		<h2><span style="color:#FF1E1E;font-weight:bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goals</span></h2>	
+		
+	<div class="row">
+  <div class="column">
+    <div class="content">
+	
+	
+	<a target="_blank" href="healthgoal.jpg">
+      <img src="healthgoal.jpg" alt="may" style="width:100%">
+      
+	  </a>
+      <h3>Health goal</h3>
+      <p><span style="color:#00F5FF;font-weight:bold;">For Physical Health</span></p>
+	  
+	  <ul>
+  <li><span style="color:#54B435;font-weight:bold;">To drink enough water</span></li>
+  <li><span style="color:#54B435;font-weight:bold;">To sleep well</span></li>
+  <li><span style="color:#54B435;font-weight:bold;">To do Physical exercise</span></li>
+  <li><span style="color:#54B435;font-weight:bold;">To eat vegetables and Fruit</span></li>
+  <li><span style="color:#54B435;font-weight:bold;">To reduce eating junk food and sugar</span></li>
+</ul> 
+ <p><span style="color:#FCE700;font-weight:bold;">For Mental Health</span></p>
+	  
+	  <ul>
+  <li><span style="color:#54B435;font-weight:bold;">To avoid over thinking</span></li>
+  <li><span style="color:#54B435;font-weight:bold;">Be a Real Person </span></li>
+  
+</ul>  
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="educationph.jpg">
+	
+    <img src="educationph.jpg" alt="may" style="width:100%">
+	</a>
+      <h3>Education Goal</h3>
+     
+	  
+	    <ul>
+  <li><span style="color:#FF884B;font-weight:bold;">To get a degree in IT </span></li>
+  <li><span style="color:#FF884B;font-weight:bold;">To be Fluent in English </span></li>
+  
+</ul>  
+	  
+	  
+	  
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	
+	<a target="_blank" href="lifegoal.jpg">
+    <img src="lifegoal.jpg" alt="may" style="width:100%">
+	</a>
+      <h3>Life Goal</h3>
+      
+	   <ul>
+  <li><span style="color:#FF8DC7;font-weight:bold;">To explore abroad</span></li>
+  <li><span style="color:#FF8DC7;font-weight:bold;">To travel alone </span></li>
+  
+</ul>  
+	  
+	  
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="careergoal1.jpg">
+    <img src="careergoal1.jpg" alt="May" style="width:100%">
+	</a>
+      <h3>Career goal</h3>
+      <ul>
+  <li><span style="color:#F9F9F9;font-weight:bold;"> To be a professional in IT Field </span></li>
+ <li><span style="color:#F9F9F9;font-weight:bold;"> To run my own business </span></li>
+</ul>  
+    </div>
+  </div>
+<!-- END 4-->
+</div>
+
+
+  
+</div>
+
+<!-- END MAIN -->
+</div>
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="tribute">
+    <h1 class="w3-text-light-grey thicker">The two Men I admire</h1>
+    <hr style="width:400px" class="w3-opacity">
+   	  
+	  
+	  
+	<div>	<a target="_blank" href="ucm11.jpg">
+  <img src="ucm11.jpg" alt="may" style="width:150px">
+</a>
+
+
+
+<a target="_blank" href="ad22up.jpg">
+  <img src="ad22up.jpg" alt="may" style="width:150px">
+</a>
+</div>
+
+
+
+
+<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="interests">
+   
+  <div class="main">
+
+<h3 class="thicker">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SayarGyi U Pe Maung Tin</h3>
+<hr>
+
+
+
+
+<!-- 4 -->  
+<div class="row">
+  <div class="column">
+    <div class="content">
+	
+	<a target="_blank" href="ad2up.jpg">
+      <img src="ad2up.jpg" alt="Sayar GYI U PHAY MAUNG TIN" style="width:100%">
+	  </a>
+     
+
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ad4up.jpg">
+	
+    <img src="ad4up.jpg" alt="Sayar GYI U PHAY MAUNG TIN" style="width:100%">
+	</a>
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	
+	<a target="_blank" href="ad3up.jpg">
+    <img src="ad3up.jpg" alt="Sayar GYI U PHAY MAUNG TIN" style="width:100%">
+	</a>
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ad1up.jpg">
+    <img src="ad1up.jpg" alt="May" style="width:100%">
+	</a>
+      
+    </div>
+  </div>
+<!-- END 4-->
+</div>
+
+
+ <div class="column-2a">
+<h4> <span style="color:#B7C4CF;font-weight:bold;" >A brief Biography List of SayarGyi U Pe Maung Tin</span></h4>
+  <table class="table-style">
+    <tr><br>
+      <td><span style="color:#C0B236;font-weight:bold;" >Born</span></td>
+      <td> <span style="color:#C0B236;font-weight:bold;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24 April 1888, Pauktaw,</span> <a href="https://www.google.com/maps/@16.9021484,96.1038878,13z"><span style="color:#C0B236;font-weight:bold;" >Insein Township,Myanmar</span></a></td>
+    </tr> 
+    <tr>
+      <td><span style="color:#D7C0AE;font-weight:bold;" >Died</span></td>
+      <td><span style="color:#D7C0AE;font-weight:bold;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22 March 1973(aged 84)</span></td>
+    </tr>
+
+    <tr>
+      <td><span style="color:#C0B236;font-weight:bold;" >Nationality</span></td>
+      <td><span style="color:#C0B236;font-weight:bold;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Burmese</span></td>
+    </tr>
+	
+	
+ <tr>
+      <td><span style="color:#D7C0AE;font-weight:bold;" >Education</span></td>
+      <td><span style="color:#D7C0AE;font-weight:bold;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Yangon,&nbsp; University of Calcutta, &nbsp;University of Oxford</span></td>
+    </tr>
+	
+    <tr>	
+      <td><span style="color:#C0B236;font-weight:bold;" >Careers</span></td>
+      <td><span style="color:#C0B236;font-weight:bold;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Professor of Pali at Yangon university,&nbsp;Principal of Yangon University(1937),</span></td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+</div>
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content">
+
+  <h3>Shortly about SayarGyi U Pe Maung Tin
+  </h3><br>
+  <p><span style="color:#9E7676;font-weight:bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SayarGyi U Pe Maung Tin was born in 
+  <a href="https://www.google.com/maps/place/Insein+Township,+Yangon/@16.9021484,96.1038878,13z/data=!3m1!4b1!4m5!3m4!1s0x30c195ce696dd4f7:0x8e6136e36e0ca442!8m2!3d16.9041792!4d96.0996978 ">Insein</a>, in  1888.He  was a scholar of Pali and Buddhism and educator in Myanmar, formerly Burma. He was from an Anglican family . He was the fifth child of U Pe and Daw Myaing. His grandfather was the first Burmese pastor of Henzada. He learnt the basic Buddhist texts at a local private school before he went to Rangoon Government High School where he won a scholarship at age 14.He won lots of Scholarships in his student life.He graduated with a B. A. degree from University College, Rangoon in 1909 and an M. A. degree from the University of Calcutta in 1911. Pe Maung Tin became the first national professor of Pali language at University College, Rangoon, and also, at the age of 24, the youngest professor in Burma in 1912. <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;He was the only Burmese to be appointed to the commission set up in 1918 to establish Rangoon University independent of Calcutta. He then worked hard to raise the status of Burmese literature as an Honours degree subject. He himself brought out texts to teach. The first course was taught in 1924, and the first student was Sein Tin who graduated in 1927 and later became famous under the pen name Theippan Maung Wa.<br><br>
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;He contributed to various language debates held by the Society (1922–1925). The year 1934 saw the publication of Hkit san pon byin ( Experimental Tales), a collection of short stories in a new style of writing, by his students   <a href="https://my.wikipedia.org/wiki/သိပ္ပံမောင်ဝ">Sayar Theippan Maung Wa</a>,<a href="https://en.wikipedia.org/wiki/Zawgyi_(writer)">Sayar Zawgyi</a> and <a href="https://en.wikipedia.org/wiki/Min_Thu_Wun">Sayar Min Thu Wun,</a> followed by an anthology called Hkit san kabya ( Experimental Poems). Professor Pe Maung Tin explained in his foreword that he coined the word hkit san ( testing the times) as he wanted his students to experiment and test the reaction of the readers. He was also an accomplished musician and had helped sponsor the Rangoon College Philharmonic Society.<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;He became principal of University College, Rangoon University, in 1937. In 1939 he was elected president of the Burma Research Society. After the Second World War in 1946, he retired at age 58. He was however asked to serve as principal of the University of Adult Education in 1947. He then became chairman of the University Translation and Publication Advisory Board and professor emeritus of Pali the following year. He was re-elected president of the BRS in 1950, and awarded an honorary doctorate LL. D. by Rangoon University in 1952.<br><br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From 1960 to 1964, He served as chairman of the Burma Historical Commission. He led the Burma Translation Society in compiling the Burmese Encyclopedia. In 1968 the BRS marked his 80th birthday with a special celebration. The Pali Text Society in 1972 requested him to become their editor for the 50 volume publication of the Atthakatha, the year before he died in 1973 at age 85.<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/Pe_Maung_Tin"><span style="color:#AA8B56;font-weight:bold;">credit To Wikipedia</span></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#D7C0AE;font-weight:bold;">If you are interested  about him,I'd like to recommend you to read his biography book that was written by the author, Sayarma Malaylon.I also mentioned the photo of this book above.</span> <br><br>
+
+
+<span style="color:#7D6E83;font-weight:bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first time I knew about him was when I was a high school student. I Just knew about like where he lived,what was his childhood name.later, I read about this biography and I really interested about his life.He did lots of achievement like winning scholarships in his student.He is one of the person who made Myanmar language to improve. One of the reason I admire him is he did respect his time.</span>
+
+</p>
+  
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
+<h3>U Chit Maung</h>
+
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+	
+	<a target="_blank" href="ucm11.jpg">
+      <img src="ucm11.jpg" alt="ucm" style="width:100%">
+	  </a>
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ucm14.jpg">
+	
+    <img src="ucm14.jpg" alt="ucm" style="width:100%">
+	</a>
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	
+	<a target="_blank" href="ucm4.jpg">
+    <img src="ucm4.jpg" alt="ucm" style="width:100%">
+	</a>
+       </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ucm.jpg">
+    <img src="ucm.jpg" alt="ucm" style="width:100%">
+	</a>
+      </div>
+  </div>
+<!-- END 4-->
+</div>
+
+
+  <h3>Shortly about U Chit Maung</h3><br>
+  <p><span style="color:#1C6758;font-weight:bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  U Chit Maung was born in <a href=" https://www.google.com/maps/place/Okpho/@18.1315166,95.6760693,15z/data=!3m1!4b1!4m5!3m4!1s0x30c728eb71845e87:0xfb32d849739df7d8!8m2!3d18.1276662!4d95.6747209">Okpho, Thayarwady District,</a>in 1913. He studied at Latpatan  High School.
+After he finished high school, he started work for Rangoon newspapers.He didn't join the College. 
+
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; He was a journalist.He was Chief Editor of myanmar Alin newspaper. Later his own Journal Kyaw Newspaper  became well known in Burma.
+ He actively participated in General Aung San's Anti-Fascist People's Freedom League.
+ 
+
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; He wife, Sayarma Journal Kyaw Mama Lay was a one of the well-known female authors in our country.She is also one of my favorite authors.
+ U Chit Maung's eldest daughter,Dr. Daw Khin Lay Myint was a noted French scholar who died in 2007. She translated her mother's works into French and some French classics into Burmese.His son U Maung Thein Tan became an actor. His youngest son was the poet U Moe Hein. Due to poor health, he died at the age of 33.  His wife Sayarma Journal Kyaw Ma Ma Lay wrote her husband's biography that is called "Thu LoLu".</span> <br>
+
+  
+<br><span style="color:#874C62;font-weight:bold;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've known about him since I read about his biography book. He was a bookworm.He really enjoyed reading books and he read about thousands of books.One of the reasons I admire
+him is he never thought about showing off works. He was a low-key and humble person.  His style was static but his brain was dynamic . 
+I like the ways he lived. 
+<br>He didn't care his health. He spend most of his time on his work. He used little time on sleeping.This is one of the reasons for causing his bad health condition that lead him to die too soon. He was precious for our country like <a href="https://en.wikipedia.org/wiki/Aung_San">General Aung San </a>and 
+<a href="https://en.wikipedia.org/wiki/Kanaung_Mintha">Kanaung Minthar GYi</a>. They didn't deserve to die too soon.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;He did a lot of achievements in his life. He was able to give lots of news and information to people as  he is an chief editor of a journal.The main reason I admire him is he didn't waste his  precious time.</span> </p>
+
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+	
+	<a target="_blank" href="ucm12.jpg">
+      <img src="ucm12.jpg" alt="ucm" style="width:100%">
+	  
+	   <span style="color:#FFAE6D;font-weight:bold;"> his wife and his two sons</span>
+	  </a>
+   
+
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ucm1.jpg">
+	
+    <img src="ucm1.jpg" alt="ucm" style="width:100%">
+	
+	<span style="color:#FFAE6D;font-weight:bold;"> with his wife </span>
+	</a>
+	
+	
+	
+	
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	
+	<a target="_blank" href="ucm8.jpg">
+    <img src="ucm8.jpg" alt="ucm" style="width:100%"><a href="https://en.wikipedia.org/wiki/Journal_Kyaw_Ma_Ma_Lay">
+	<span style="color:#FFAE6D;font-weight:bold;"> the young sayarma <br>Journal Kyaw MaMaLay </span></a>
+	</a>
+	</div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ucm3.jpg">
+    <img src="ucm3.jpg" alt="May" style="width:100%">
+	<span style="color:#FFAE6D;font-weight:bold;">his family </span>
+	</a>
+	
+	
+	</div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ucm7.jpg">
+    <img src="ucm7.jpg" alt="May" style="width:100%">
+	<span style="color:#FFAE6D;font-weight:bold;"> his daughter<br>(Daw Khin Law Myint) </span>
+	
+	</a>
+	
+     </div>
+  </div>
+  
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ucm17.jpg">
+	
+    <img src="ucm17.jpg" alt="ucm" style="width:100%">
+	<span style="color:#FFAE6D;font-weight:bold;"> (Daw Khin Law Myint)</span>
+	
+	</a>
+	
+      
+    </div>
+  </div>
+  
+  
+  
+  
+ <div class="column">
+    <div class="content">
+	
+	<a target="_blank" href="ucm9.jpg">
+    <img src="ucm9.jpg" alt="ucm" style="width:100%">
+	<span style="color:#FFAE6D;font-weight:bold;"> his son( U Maung Thein Tan)</span>
+	
+	</a>
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ucm13.jpg">
+	<span style="color:#FFAE6D;font-weight:bold;"> </span>
+	
+    <img src="ucm13.jpg" alt="ucm" style="width:100%">
+	<span style="color:#FFAE6D;font-weight:bold;">  U Maung Thein Tan</span>
+	
+	
+	</a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	</div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ucm10.jpg">
+    <img src="ucm10.jpg" alt="ucm" style="width:100%">
+	<span style="color:#FFAE6D;font-weight:bold;"> his son<br>( U Moe Hein)</span>
+
+	</a>
+	
+	
+	
+	
+	
+	
+	
+	</div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ucm20.jpg">
+    <img src="ucm20.jpg" alt="ucm" style="width:100%">
+	<span style="color:#FFAE6D;font-weight:bold;">  U Moe Hein</span>
+	</a>
+	
+	
+	
+		
+	</div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ucm18.jpg">
+    <img src="ucm18.jpg" alt="ucm" style="width:100%">
+	 	<a href="https://www.amazon.com/Man-Like-Him-Journalist-Southeast/dp/087727777X"><span style="color:#FFAE6D;font-weight:bold;">  A Man Like Him</span></a>
+	</a>
+	
+	
+	
+	
+	
+	
+	
+	</div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a target="_blank" href="ucm2.jpg">
+    <img src="ucm2.jpg" alt="ucm" style="width:100%">
+	<a href="https://www.google.com/maps/@16.8172645,96.1655564,18z">
+	  
+	  <span style="color:#FFAE6D;font-weight:bold;">  U Chit Maung Road </span></a>
+	
+	</a>
+	</div>
+  </div>
+<!-- END 4-->
+</div>
+
+
+
+
+
+
+
+
+<div class="content">
+<a target="_blank" href="ucm21.jpg">
+  <img src="ucm21.jpg" alt="ucm" style="width:40%">
+  
+</a>
+ 
+
+  <p><span style="color:#AC7088;font-weight:bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I saw this error in <a href="https://en.wikipedia.org/wiki/Chit_Maung">Wikipedia. </a>Actually, he died in 1946, at the age of 33.</span>
+</p>
+  
+</div>
+
+
+
+
+
+
+
+
+
+<!-- END MAIN -->
+</div>
+
+</div>
+
+
+
+
+
+
+
+<!-- Contact Section -->
+ 
+ 
+ 
+ 
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h1 class="w3-text-light-grey">Contact Me</h1>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> <a href="https://satellites.pro/Google_plan/Mingaladon_map"><span style="color:#FEDB39;font-weight:bold;">Mingaladon,Yangon,Myanmar<span></a></p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i><a href="tel:+959454343475"><span style="color:#FEDB39;font-weight:bold;"> +959454343475</span></a></p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i><a href="mailto:mnyeink@gmail.com"> <span style="color:#FEDB39;font-weight:bold;">  mnyeink@gmail.com</a></span></p>
+    </div><br>
+  
+  
+  
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i  class= "w3-hover-opacity"><span style="color:#483838;font-weight:bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2022*</i>
+   
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+
+
+
+</body>
+</html>
